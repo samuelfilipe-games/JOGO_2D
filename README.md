@@ -11,4 +11,4 @@ Depois criarmos objetos na unity, fomos na GITHUB DESKTOP pra salvar e comentar 
 Fizemos o player andar na horizontal e pular.
 
 24/09
-Começamos a criar o mapa do nosso jogo, mas ainda está no começo.
+Começamos a criar o mapa do nosso jogo, mas ainda está no começo, sem textura e quase sem formas.

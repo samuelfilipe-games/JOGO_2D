@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public float speed = 5f;
@@ -30,6 +30,13 @@ public class Player : MonoBehaviour
             isGrounded = true; //vai reconhecer quando o jogador pular no chão
             
         }
+        
+        if (collision.gameObject.CompareTag("Dano"))
+        {
+            SceneManager.LoadScene(0);
+        }
+
+
     }
     private void OnCollisionExit2D(Collision2D collision)
     {

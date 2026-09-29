@@ -12,3 +12,6 @@ Fizemos o player andar na horizontal e pular.
 
 24/09
 Começamos a criar o mapa do nosso jogo, mas ainda está no começo, sem textura e quase sem formas.
+
+29/09
+Começamos a aula fazendo o cenário do nosso jogo 2D. O professor ensinou um novo mecanismo de duplicar o Objeto 2D com as mesmas características, o nome do mecanismo é "PreFabs". Finalizamos o projeto do cenário.

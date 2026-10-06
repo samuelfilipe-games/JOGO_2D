@@ -4,7 +4,7 @@ public class Player : MonoBehaviour
 {
     public float speed = 5f;
     private Rigidbody2D rb;
-
+    public int coins;
     private bool isGrounded = false;
 
     void Start()
@@ -44,5 +44,14 @@ public class Player : MonoBehaviour
         {
             isGrounded = false; 
         }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+     if (collision.gameObject.tag == "Coins")
+        {
+            Destroy(collision.gameObject);
+            coins++;
+        }
+            
     }
 }

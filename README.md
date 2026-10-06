@@ -15,3 +15,7 @@ Começamos a criar o mapa do nosso jogo, mas ainda está no começo, sem textura
 
 29/09
 Começamos a aula fazendo o cenário do nosso jogo 2D. O professor ensinou um novo mecanismo de duplicar o Objeto 2D com as mesmas características, o nome do mecanismo é "PreFabs". Finalizamos o projeto do cenário.
+
+06/10
+Fechamento de nota. hoje desenvolvemos mais do jogo o professor vistou e fechou a nota do terceiro bimestre.
+Fiz um mecanismo de coletáveis.

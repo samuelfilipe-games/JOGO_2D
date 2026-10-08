@@ -851,6 +851,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -969,13 +970,31 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00085311773, y: 0.0024438961, z: 0.9999965, w: -0.00055631757}
-  m_LocalPosition: {x: 0.70005614, y: 1.6100111, z: -8.497621}
-  m_LocalScale: {x: 16.948753, y: -11.14484, z: 3.1406384}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 259.4, y: 26.5, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 983021144}
-  m_LocalEulerAnglesHint: {x: -0.28, y: -0.098, z: -179.936}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22d8a2aff7076254fa76644bfef03f7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 983021144}
+  minX: 0.1
+  maxX: 259.4
+  minY: 0
+  maxY: 26.5
+  timeLerp: 0.06
 --- !u!4 &545716926 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1548525580335915944, guid: 0d3f8d25a477be14b85bb174c9c531a8, type: 3}
@@ -2564,14 +2583,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983021142}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000010895136, y: 0.0042308685, z: -0.9999878, w: 0.0025751232}
-  m_LocalPosition: {x: 2, y: -0.3, z: -0.1}
-  m_LocalScale: {x: 1.134418, y: -0.81755, z: 1.1768}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.06, y: -3.3324, z: 0}
+  m_LocalScale: {x: 1.4924, y: 1.3941361, z: 0.2}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 519420032}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0.485, y: 0.002, z: -179.705}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &983021145
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5738,6 +5756,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 983021144}
   - {fileID: 808282742}

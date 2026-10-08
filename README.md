@@ -19,3 +19,6 @@ Começamos a aula fazendo o cenário do nosso jogo 2D. O professor ensinou um no
 06/10
 Fechamento de nota. hoje desenvolvemos mais do jogo o professor vistou e fechou a nota do terceiro bimestre.
 Fiz um mecanismo de coletáveis.
+
+08/10
+Pesquisamos sobre scene manager e aprimorei a câmera do meu jogo.

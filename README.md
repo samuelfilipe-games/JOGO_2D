@@ -22,3 +22,6 @@ Fiz um mecanismo de coletáveis.
 
 08/10
 Pesquisamos sobre scene manager e aprimorei a câmera do meu jogo.
+
+15/10
+Começamos a fazer a tela de game over do nosso jogo.

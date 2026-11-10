@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     public int coins;
     private bool isGrounded = false;
+    public MenuScene menu;
 
     void Start()
     {
@@ -33,7 +34,7 @@ public class Player : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Dano"))
         {
-            SceneManager.LoadScene(0);
+            menu.MostrarGameOver(); 
         }
 
 
